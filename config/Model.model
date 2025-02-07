@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="withoutResetClone" entityName="withoutResetClone" version="25" name="withoutResetClone" lastUpdated="2025-02-05T14:17:23.098+02:00" lastUpdatedBy="admin" id="admin:MODEL:withoutReset" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="withoutResetClone4" entityName="withoutResetClone4" version="25" name="withoutResetClone4" lastUpdated="2025-02-05T14:17:23.098+02:00" lastUpdatedBy="admin" id="admin:MODEL:withoutReset" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <datalists entityCode="3" entityName="Stock Fundamental" version="25" name="Stock Fundamental" created="2025-02-05T14:17:23.092+02:00" createdBy="admin" lastUpdated="2025-02-05T14:17:23.092+02:00" lastUpdatedBy="admin" id="Stock Fundamental">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Symbol" initialized="true" id="Symbol"/>
         <dataFields type="text" fieldCode="101" rawType="java.lang.String" allowNull="true" name="Name" initialized="true" id="Name"/>
@@ -29,8 +29,10 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
-    <views allColumns="true" default="true" modelView="true" entityName="withoutResetClone" name="withoutResetClone" description="Default view for list withoutReset" id="withoutResetClone"/>
+    <datalists entityCode="4" entityName="Datalist1" version="32" name="Datalist1" description="" created="2025-02-07T10:17:07.342+02:00" createdBy="admin" lastUpdated="2025-02-07T10:17:07.342+02:00" lastUpdatedBy="admin" id="Datalist1"/>
+    <views allColumns="true" default="true" modelView="true" entityName="withoutResetClone4" name="withoutResetClone4" description="Default view for list withoutReset" id="withoutResetClone4"/>
     <views allColumns="true" default="true" entityName="Stock Fundamental" name="Stock Fundamental" description="Default view for list Stock Fundamental" id="Stock Fundamental"/>
+    <views allColumns="true" default="true" entityName="Datalist1" name="Datalist1" description="Default view for list Datalist1" id="Datalist1"/>
     <views allColumns="true" default="true" entityName="Price Target" name="Price Target" description="Default view for list Price Target" id="Price Target"/>
     <connectors layoutDetected="true" entityName="Stock Fundamental" version="25" name="Stock Fundamental" created="2025-02-05T14:17:23.093+02:00" createdBy="admin" lastUpdated="2025-02-05T14:17:23.093+02:00" lastUpdatedBy="admin" id="Stock Fundamental">
         <connectorFields columnIndex="0" ignore="false" mapField="Symbol" type="text" rawType="String" allowNull="true" name="Symbol" id="Symbol"/>
